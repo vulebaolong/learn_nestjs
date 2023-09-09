@@ -22,4 +22,5 @@ export class AuthController {
     ): Promise<{ token: string }> {
         return this.authService.login(loginDto);
     }
+    
 }
